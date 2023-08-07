@@ -179,7 +179,7 @@ color: #FFFFFF;
     margin-right: auto;
 }
 
-.sky-image {
+.sky-image:first-child {
     width: 296px;
     height: 96px;
     display: block;
@@ -203,3 +203,38 @@ color: #FFFFFF;
     padding-bottom: 10px ;
     outline: solid red;
 }
+
+.first-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .div-column {
+display: flex;
+flex-direction: column;
+} */
+
+.sky-text:nth-child(1) {
+   margin-top: 149px;
+   width: 298px;
+}
+
+.sky-link {
+    display: flex;
+    margin-bottom: 126px;
+    margin-top: 46px;
+}
+
+.sky-button {
+   width: 36px;
+   height: 20px;
+}
+
+.sky-bottom {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+
