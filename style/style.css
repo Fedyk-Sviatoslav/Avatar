@@ -71,7 +71,7 @@ color: #26C7EA;
 }
 
 .energy-text {
-    font-family: Inter;
+font-family: Inter;
 font-size: 24px;
 font-weight: 400;
 line-height: 1.2;
@@ -93,7 +93,7 @@ color: #000000;
 }
 
 .language-text {
-    font-family: HeadlandOne;
+font-family: Headland+One;
 font-size: 24px;
 font-weight: 400;
 line-height: 1;
@@ -104,23 +104,22 @@ color: #000000;
 }
 
 .language-h2 {
-    font-family: Inter;
+font-family: Inter;
 font-size: 36px;
 font-weight: 400;
 line-height: 1.2;
 letter-spacing: 0em;
 text-align: justified;
 color: #0A3853;
-
+text-align: center;
 }
 
-#language-text  {
-    font-family: Inter;
+.language-text:last-child  {
+font-family: Inter;
 font-size: 24px;
 font-weight: 400;
 line-height: 1.2;
 letter-spacing: 0em;
-text-align: justified;
 color: #000000;
 
 }
@@ -128,7 +127,7 @@ color: #000000;
 /* footer */
 
 .input-text {
-    font-family: Inter;
+font-family: Inter;
 font-size: 24px;
 font-weight: 400;
 line-height: 1.2;
@@ -186,6 +185,11 @@ color: #FFFFFF;
     margin-right: 642px;
 }
 
+.sky-image {
+    width: 400px;
+    height: 120px;
+}
+
 .sky-section {
     padding-top: 25px;
     padding-bottom: 10px;
@@ -209,10 +213,6 @@ color: #FFFFFF;
     justify-content: space-around;
 }
 
-/* .div-column {
-display: flex;
-flex-direction: column;
-} */
 
 .sky-text:nth-child(1) {
    margin-top: 149px;
@@ -236,5 +236,58 @@ flex-direction: column;
 align-items: center;
 }
 
+.sky-header {
+    text-align: center;
+}
+
+.energy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.energy-link {
+    padding-top: 310px;
+    margin-bottom: 385px;
+}
+
+.energy-header {
+ text-align: center;
+}
+
+.energy-text {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.energy-image {
+    width: 400px;
+    height: 120px;
+}
+
+.language-h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.language-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 36px;
+    column-gap: 24px;
+}
+
+.language-item {
+    padding: 36px 120px 36px 120px;
+    outline: solid red;
+    justify-content: center;
+}
+
+.language-bottom {
+    display: flex;
+    flex-direction: column;
+}
 
 
